@@ -55,17 +55,19 @@ header>p{
     text-decoration: underline;
 }
 
-section>div{
-    background-color: black;
-}
-
-div>p{
-    color: var(--cor1);
+section{
+    
 }
 .paragrafo{
     font-family: var(--fonte-texto);
-    font-weight: bolder;
-    font-size: 3vw;
-    padding-left: 35px;
+    font-size: 5vw;
+    margin-left: 10px;
+    font-weight: bold;
+
 }
 
+
+#primeiropar{
+    
+    color: var(--cor1);
+}

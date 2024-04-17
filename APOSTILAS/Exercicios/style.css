@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: blue;
+    margin: auto;
+    height: 250px;
+    text-align: center;
+    background-position: center;
+    padding-top: 150px;
+    font-size: 5vw;
+}
+
+div{
+    background-color: green;
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.video{
+    background-color: red;
+    padding-top: 30px;
+    padding-bottom: 380px;
+    position: relative;
+}
+iframe{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+}

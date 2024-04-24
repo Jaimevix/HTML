@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+
+
+.inicio{
+    background-color: rgb(2, 2, 71);
+    margin: 0px;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.inicio > a{
+    margin-left: 10%;
+}
+
+.plano-fundo{
+    position: relative;
+    background-image: url('../images/header_bg.png');
+}
+
+.plano-fundo > form{
+    position: absolute;
+    top: -20px;
+    left: 1200px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    border: 6px solid lightgray;
+}

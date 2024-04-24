@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.inicio{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.logo > a >img{
+    display: flex;
+    width: 200px;
+    margin-left: 15px;
+}
+
+.pesquisa{
+    display: flex;
+    width: 1300px;
+    transition: width 0.3 ease;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 0px;
+    padding: 0px;
+}
+.pesquisa > input{
+    margin-top: 15px;
+    width: 87%;
+    height: 45px;
+    position: relative;
+}
+
+.pesquisa > button{
+    width: 7%;
+    margin-top: 15px;
+    height: 45px;
+    cursor: pointer;
+    
+}
+
+.pesquisa > button > img{
+    border-image-width: 10px;
+}
+
+.videoplus, .bell, .apps{
+    display: flex;
+    margin-top: 35px;
+    margin-right: 30px;
+}
+
+/*Fim do header */
+
+.menu{
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+.menu > a{
+    background-color: lightgray;
+    margin: 20px 15px;
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    border-radius: 40%;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.videos{
+    display: flex;
+    padding-top: 50px;
+    margin: 0px 30px;
+    height: 350px;
+    border-right: 4px solid lightgray;
+    border-left: 4px solid lightgray;
+    border-bottom: 4px solid lightgray;
+}
+
+.links{
+    margin-right: 20px;
+    width: 300px;
+    height: 180px;
+}
+
+div > h4{
+    width: 300px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.link-canal{
+    text-decoration: none;
+    color: gray;
+}
+
+.canal{
+    float: left;
+    background-color: green;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}

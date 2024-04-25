@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html,body{
@@ -30,7 +31,7 @@ html,body{
     background-image: url(../images/header_bg.png);
 }
 
-.plano-fundo > form{
+.plano-fundo > .formulario{
     position: absolute;
     top: -25px;
     left: 1200px;
@@ -39,4 +40,43 @@ html,body{
     height: 600px;
     margin-bottom: 5px;
     border: 6px solid lightgray;
+    
+}
+
+.formulario{
+    color: rgb(146, 145, 145);
+    font-weight: bold;
+}
+
+.formulario > div{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.box-texto{
+    height: 50px;
+    width: 270px;
+    margin-top: 10px;
+    
+}
+
+#submit{
+    background-color: lightskyblue;
+    margin-top: 25px;
+    margin-left: 40px;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+}
+
+.texto-cinza{
+    text-align: center;
+    background-color: rgb(167, 165, 165);
+    padding: 35px 0px;
+}
+
+.texto-cinza > p{
+    width: 400px;
+    padding-top: 10px;
+    margin: auto;
 }

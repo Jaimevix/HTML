@@ -33,10 +33,11 @@ html,body{
 
 .plano-fundo > .formulario{
     position: absolute;
+    display: inline-block;
     top: -25px;
-    left: 1200px;
+    left: 65%;
     background-color: white;
-    width: 300px;
+    max-width: 300px;
     height: 600px;
     margin-bottom: 5px;
     border: 6px solid lightgray;
@@ -49,7 +50,7 @@ html,body{
     position: absolute;
     top: 110px;
     left: 90px;
-    width: 700px;
+    max-width: 700px;
     padding: 45px;
 }
 
@@ -71,7 +72,6 @@ html,body{
     height: 50px;
     width: 270px;
     margin-top: 10px;
-    
 }
 
 #submit{
@@ -81,6 +81,7 @@ html,body{
     height: 40px;
     width: 200px;
     text-align: center;
+    cursor: pointer;
 }
 
 .texto-cinza{
@@ -93,4 +94,35 @@ html,body{
     width: 400px;
     padding-top: 10px;
     margin: auto;
+}
+
+/*Aqui se inicia a seção */
+section{
+    text-align: center;
+    margin-top: 80px;
+    border-bottom: 1px solid black;
+}
+
+.informacao{
+    margin-top: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.item{
+    margin: 90px 50px;
+}
+
+/*Final da página */
+footer{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.final > p{
+    margin-bottom: 10px;
+    color: rgb(119, 119, 119);
 }

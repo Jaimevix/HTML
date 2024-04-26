@@ -91,9 +91,10 @@ html,body{
 }
 
 .texto-cinza > p{
-    width: 400px;
+    text-align: justify;
+    width: 500px;
     padding-top: 10px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 /*Aqui se inicia a seção */

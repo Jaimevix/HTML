@@ -9,7 +9,7 @@ html,body{
 }
 
 .roxo{
-    margin: 0;
+    margin-right: -4px;
     display: inline-block;
     width: 25%;
     height: 100%;
@@ -29,7 +29,6 @@ html,body{
 
 div.roxo > img{
     margin-top: 45%;
-    margin-right: 0;
     width: 70%;
     height: 35%;
     border: 10px solid rgb(86, 22, 146);
@@ -47,8 +46,7 @@ div.roxo > nav > a{
 /*Inicio da barra branca */
 .branco{
     display: inline-block;
-    margin: 0;
-    width: 74.5%;
-    height: 72%;
+    width: 74%;
+    height: 70%;
     background-color: red;
 }

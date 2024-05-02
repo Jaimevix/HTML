@@ -6,11 +6,13 @@
 
 html,body{
     height: 100%;
+    overflow: auto;
 }
 
 .roxo{
     margin-right: -4px;
     display: inline-block;
+    position: fixed;
     width: 25%;
     height: 100%;
     background-color: rgb(72, 18, 122);
@@ -28,25 +30,53 @@ html,body{
 }*/
 
 div.roxo > img{
-    margin-top: 45%;
+    display: block;
+    top: 25%;
+    left: 13%;
     width: 70%;
     height: 35%;
     border: 10px solid rgb(86, 22, 146);
     border-radius: 50%; 
+    margin-top: 45%;
+    margin-left: 15%;
 }
 
-div.roxo > nav > a{
+div.roxo > nav{
+    margin-top: 10%;
+    height: 100%;
+}
+
+div.roxo > .links > a{
+    display: block;
     font-size: 130%;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 5% 0;
+    top: 10px;
+    left: 0;
+    margin-top: 5%;
     color: white;
     text-decoration: none;
-    display: block;
 }
 /*Inicio da barra branca */
 .branco{
     display: inline-block;
-    width: 74%;
-    height: 70%;
-    background-color: red;
+    width: 75%;
+    height: 100%;
+    background-color: white;
+}
+
+.branco > h2{
+    margin-left: 40%;
+    margin-top: 25%;
+    font-size: 200%;
+    width: 60%;
+}
+
+.branco > p{
+    margin-top: 3%;
+    margin-left: 40%;
+    width: 60%;
+}
+
+.destaque{
+    color: rgb(230, 151, 4);
 }

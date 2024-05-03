@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+   
+   
+   html,body{
+     height:100%;
+   }   
+
+@font-face {
+    font-family: 'facebook-font';
+    src: url(../fontes/FACEBOLF.OTF);
+}
+
+:root{
+    --facebook: #3b5997;
+    --cinza-face: #f0f2f5;
+    --font: 'facebook-font';
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 7%;
+    background-color: var(--facebook);
+    margin: 0 auto;
+    padding: 0 26%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    display: flex;
+    flex: left;
+    font-family: var(--font);
+    color: white;
+    margin-right: 5%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);;
+}
+
+header form{
+    color: white;
+    display: flex;
+    flex: right;
+}
+
+header > form > div {
+    margin-right: 4%;
+    
+}
+
+header > form > div > input{
+    height: 25px;
+}
+
+header > form > button{
+    background-color: #567cc9;
+    height: 25px;
+    padding: 1% 2%;
+    margin-top: 5%;
+    color: white;
+    border: 0px solid black;   
+}
+
+@media screen and (max-width: 768px){
+    header{
+        display: block;
+        width: 100%;
+        height: 25%;
+        background-color: var(--facebook);
+        text-align: center;
+    }
+    h1{
+        display: block;
+        font-family: var(--font);
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+    header form{
+        color: white;
+        display: block;
+        text-align: center;
+        margin-top: 5%;
+        padding: 0 2%;
+    }
+    header > form > div >p{
+        margin-top: 4%;
+        font-size: 16px;
+    }
+    header > form > div > input{
+        height: 25px;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 2px;
+    }
+    header > form > button{
+        text-align: center;
+        margin-top: 5% auto;
+        min-width: 150px;  
+    }
+}
+/* Começo do main */
+
+main{
+    position: relative;
+    background-color: var(--cinza-face);
+    width: 100%;
+    height: 55%;
+}
+
+main > p{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1f3768;
+    float: right;
+    text-align: left;
+    width: 400px;
+    height: 100%;
+    font-size: 16px;
+}
+
+main > img{
+    top: 25%;
+    left: 19%;
+    position: absolute;
+    max-width: 550px;
+    width: 33%; 
+    height: 45%;
+}
+main > form{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    width: 100%;
+    max-width: 500px;
+}
+
+main > form > h2{
+    font-size: 30px;
+}
+
+main > form > p{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main > form > input.nomes{
+    height: 40px;
+    width: 225px;
+    border: 1px solid rgba(126, 126, 126, 0.671);
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+main > form > input.maior{
+    height: 40px;
+    margin-bottom: 4px;
+    width: 455px;
+    border: 1px solid rgba(126, 126, 126, 0.671);
+    border-radius: 4px;
+}
+
+main > form > select.numero{
+    width: 43px;
+    height: 35px;
+    border: 1px solid rgba(126, 126, 126, 0.671);
+    border-radius: 4px;
+}
